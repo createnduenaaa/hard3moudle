@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+
+    <!-- CSS styling for the two columns -->
+    <style>
+        main {
+            display: flex;
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .left-column {
+            flex: 2;
+        }
+
+        .right-column {
+            flex: 1;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        header {
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <header>
+        <h1>My Blog</h1>
+    </header>
+
+    <main>
+
+      
+        <div class="left-column">
+
+            <section>
+                <h2>Latest Post</h2>
+
+               
+                <h3>The Importance of Learning New Things</h3>
+
+                
+                <p>
+                    Learning new things is an important part of life.
+                    It helps us grow, develop our skills, and become
+                    more confident. <strong>Knowledge is power!</strong>
+                </p>
+
+             
+                <p>
+                    Every day is a new opportunity to discover something
+                    interesting. We should always stay curious and
+                    <em>never stop learning.</em>
+                </p>
+
+
+                <h3>Benefits of Learning:</h3>
+
+                <ul>
+                    <li>Improves our knowledge and skills.</li>
+                    <li>Develops creativity and imagination.</li>
+                    <li>Helps us achieve our goals.</li>
+                </ul>
+
+                <p>
+                    In conclusion, learning is a lifelong journey
+                    that makes our lives better and more meaningful.
+                </p>
+
+            </section>
+        </div>
+
+ 
+        <div class="right-column">
+
+            <section>
+                <h2>Quote of the Day</h2>
+
+                
+                <blockquote>
+                    <q>Believe you can and you're halfway there.</q>
+
+                   
+                    <p><strong>— Theodore Roosevelt</strong></p>
+                </blockquote>
+
+            </section>
+        </div>
+
+    </main>
+
+</body>
+</html>
